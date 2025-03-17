@@ -1,9 +1,15 @@
+# The purpose of this project
 
-I want to create a training to fresh grads joining the departments. I initially developed the prompts iteratively and later I also tried as a consolidated prompt.
+ To create a beginner level demo for Probability_of_Default model using GenAI. 
 
-**_Initial Iterative Prompts_**
+## Process
 
-_**p**rompt 1_ - Create python notebook pd.ipynb that include,
+Initially the prompts were developed iteratively.
+Later consolidated prompt was created to assess the response behaviour of GenAI.
+
+## Iterative development of Prompts
+
+**_prompt 1_** - Create python notebook pd.ipynb that include,
 
 -statistical model to calculate probability of default for retail mortgage customers.
 -generate synthetic data that I can use to run above model
@@ -13,7 +19,8 @@ _**P**rompt 2_ - I am not that expert in python. Add more explicit linters... A
 _**P**rompt 3_ - you included one plot.. can there be other relevant plots
 _**P**rompt 4_ - Include the ESG realated 2 model parameters
 
-**_Consolidated prompt:_** 
+## **_Consolidated prompt:_** 
+
 create python notebook pd.ipynb that include
 - A statistical model (Logistic Regression) to calculate the probability of default for retail mortgage customers.
 - use model parameters relevant to Dutch market. Also include two ESG related model parameters
@@ -21,13 +28,13 @@ create python notebook pd.ipynb that include
 - add explicit linters to support beginner python developer
 - generate multiple relevant visualizations with explicit description.
 
-Benefits and Shortcoming of Response
+## Benefits and Shortcoming of Response
 
-**Benefits**
+### **Benefits**
 - It reinforced my belief that LLMs make prototyping work a piece of cake
 - It added clear and concise linters/comments
 
-**Shortcoming of Response**
+### **Shortcoming of Response**
 
 - Even when I ran both prompts in the same window with memorization enabled. Running prompts incrementally and running them as a whole created different responses. For ex-  #1. no of KPIs captured in first approach was 6 vs that in second approach was 3.  #2 key factors where different You can review the prompt & response here -- 
 - [git-iterative-prompt-pd (Links to an external site.)](https://github.com/prab152/mit-agai/blob/main/pd_rmm_iterative_prompt.ipynb)  
